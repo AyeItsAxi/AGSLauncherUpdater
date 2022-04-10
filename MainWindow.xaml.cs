@@ -33,10 +33,6 @@ namespace AGSLauncherUpdater
             //use local file reading instead of json info
             //paths save in a weird way
             InitializeComponent();
-            if (Directory.Exists("ExCont"))
-            {
-                Directory.Delete("ExCont", true);
-            }
             DST();
         }
 
